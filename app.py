@@ -78,6 +78,7 @@ try:
             st.subheader("Most Replied Comments")
             df_replies = df[['Author', 'Comment', 'Timestamp', 'TotalReplies']].sort_values(
                 'TotalReplies', ascending=False).reset_index(drop=True)
+                
             # st.dataframe(df_replies.head(11))
 
             gd2 = GridOptionsBuilder.from_dataframe(df_replies.head(11))
