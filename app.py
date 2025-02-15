@@ -135,8 +135,9 @@ try:
             }
             st_echarts(
                 options=options, height="500px",
+
             )
 
 except:
     st.error(
-        ' The URL Should be of the form: https://www.youtube.com/watch?v=videoID', icon="🚨")
+        ' The URL Should be of the form: https://www.youtube.com/watch?v=videoID', icon="🚨" )
