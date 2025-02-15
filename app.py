@@ -37,7 +37,7 @@ try:
             st.video(VIDEO_URL)
 
             # Top Comments
-            st.subheader("Most liked comments")
+            st.subheader("Most liked Comments")
             df_top = df[['Author', 'Comment', 'Timestamp', 'Likes']].sort_values(
                 'Likes', ascending=False).reset_index(drop=True)
             # st.dataframe(df_top.head(11))

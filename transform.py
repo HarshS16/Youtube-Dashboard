@@ -13,7 +13,7 @@ import streamlit as st
 def get_polarity(text):
     """Function to get the polarity
     Args:
-      text: Text used as input to determin the polarity
+      text: Text used as input to determine the polarity
     Returns:
       Returns emotions expressed in a sentence.
     """
