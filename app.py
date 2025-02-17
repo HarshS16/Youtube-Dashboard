@@ -1,5 +1,5 @@
 """
-Function to import Transformations and run the streamlit dashboard
+Function to import Transformations and run the Streamlit dashboard
 """
 import json
 import streamlit as st

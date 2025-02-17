@@ -5,8 +5,11 @@
 ## 🚀 Features
 
 - 🔹 **Fetch video metrics**: Views, likes, and total comments count
+
 - 🔹 **Extract top comments**: Most liked and most replied comments
+
 - 🔹 **Sentiment analysis**: Classifies comments as positive, negative, or neutral
+
 - 🔹 **User-friendly UI**: Built with Streamlit for easy interaction
 
 ## 🛠️ Tech Stack
