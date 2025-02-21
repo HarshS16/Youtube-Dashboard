@@ -35,6 +35,7 @@
    ```
 
 3. **Run the Streamlit app**:
+   
    ```bash
    streamlit run app.py
    ```
@@ -42,7 +43,9 @@
 ## 📌 Future Improvements
 
 - 🎥 **Support for channel-wide analysis**
+
 - 📊 **Visualizations for engagement trends**
+  
 - 🤖 **AI-based comment summarization**
 
 ## 📜 License
