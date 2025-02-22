@@ -16,7 +16,7 @@ st.set_page_config(
 
 st.title('YouTube Analytics Dashboard')
 
-VIDEO_URL = st.text_input('Enter URL')
+VIDEO_URL = st.text_input('Enter URL (Link)')
 
 if st.button('Example'):
     VIDEO_URL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
