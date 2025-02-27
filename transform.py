@@ -121,6 +121,7 @@ def parse_video(url) -> pd.DataFrame:
         df_transform[df_transform['Language'] == 'Not-Detected'].index, inplace=True)
 
     # Determining the polarity based on english comments
+    
     df_transform['TextBlob_Polarity'] = df_transform[['Comment', 'Language']].apply(
         lambda x: get_polarity(x['Comment']) if x['Language'] == 'English' else '', axis=1)
 
