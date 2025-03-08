@@ -2,6 +2,7 @@
 
 **A Python-based YouTube video analysis tool that extracts key metrics like views, likes, comments, top comments, and sentiment analysis. Built with Python and deployed using Streamlit.**
 
+
 ## 🚀 Features
 
 - 🔹 **Fetch video metrics**: Views, likes, and total comments count
