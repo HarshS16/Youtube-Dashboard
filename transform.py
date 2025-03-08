@@ -111,6 +111,7 @@ def parse_video(url) -> pd.DataFrame:
                                                                             no_punct=True,
                                                                             no_line_breaks=True,
                                                                             fix_unicode=True))
+    
     # Detect the languages of the comments
     df_transform['Language'] = df_transform['Comment'].apply(det_lang)
 
