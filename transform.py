@@ -1,6 +1,7 @@
 """
 Function that does the transformation to pass onto streamlit
 """
+
 import googleapiclient.discovery
 import pandas as pd
 import pycountry
