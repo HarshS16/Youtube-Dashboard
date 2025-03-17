@@ -6,6 +6,7 @@ import json
 import streamlit as st
 
 from streamlit_echarts import st_echarts
+
 from millify import millify
 from st_aggrid import AgGrid
 from st_aggrid.grid_options_builder import GridOptionsBuilder
