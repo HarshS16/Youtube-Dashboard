@@ -16,7 +16,6 @@
 ## 🛠️ Tech Stack
 
 - **Python**
-- 
 - **Streamlit**
 - **YouTube Data API**
 - **TextBlob/NLTK (for sentiment analysis)**
