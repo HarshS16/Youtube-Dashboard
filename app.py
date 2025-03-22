@@ -7,7 +7,8 @@ import streamlit as st
 
 from streamlit_echarts import st_echarts
 
-from millify import millify
+from millify import mollify
+
 from st_aggrid import AgGrid
 from st_aggrid.grid_options_builder import GridOptionsBuilder
 from transform import parse_video, youtube_metrics
